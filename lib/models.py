@@ -55,6 +55,4 @@ class CNNDlib(FaceDetectorWrapper):
 
         return [(face.rect.left(), face.rect.top(), face.rect.right(), face.rect.bottom()) for face in faces]
 
-
-
     
